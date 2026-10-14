@@ -1,0 +1,11 @@
+html
+input creates a field where the user can type.
+type="text" allows text.
+id="itemName" gives the field a unique name JavaScript can use.
+placeholder displays a hint.
+list container
+This is an empty list. JavaScript will put shopping items inside it.
+total-cost
+JavaScript will update this number whenever the shopping list changes.
+the Script
+This connects your JavaScript file to the webpage. The defer attribute ensures the HTML is parsed before the script runs.

@@ -1,0 +1,65 @@
+header {
+    background-color: #3d79b4;
+    padding: 20px;
+    border-radius: 25px;
+    padding-bottom: 10px;
+
+}
+
+body {
+    font-family: Arial, sans-serif;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+    padding-top: 50px;
+}
+
+h1 {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    box-sizing: border-box;
+    max-width: 100%;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #2563eb;
+    color: white;
+}
+
+#shoppingList {
+    padding: 0;
+    list-style: none;
+}
+
+#shoppingList li {
+    background-color: white;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.item-text {
+    flex: 1;
+}
+
+.purchased .item-text {
+    text-decoration: line-through;
+    color: gray;
+}
+
+#clearBtn {
+    background-color: #dc2626;
+}
